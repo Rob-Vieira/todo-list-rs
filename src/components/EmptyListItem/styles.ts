@@ -14,13 +14,11 @@ export const styles = StyleSheet.create({
         marginBottom: 16
     },
     textBold: {
-        fontFamily: 'Inter_700Bold',
         fontSize: 14,
         fontWeight: "bold",
         color: theme.gray300
     },
     text: {
-        fontFamily: 'Inter_400Regular',
         fontSize: 12,
         color: theme.gray300
     }

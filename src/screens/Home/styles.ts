@@ -32,7 +32,6 @@ export const styles = StyleSheet.create({
         left: 24
     },
     input: {
-        fontFamily: 'Inter_400Regular',
         flex: 1,
         fontSize: 16,
         color: theme.gray100,
@@ -42,6 +41,9 @@ export const styles = StyleSheet.create({
         borderRadius: 6,
         paddingHorizontal: 16,
         height: 54,
+    },
+    inputFocus: {
+        borderColor: theme.purpleDark
     },
     button: {
         width: 52,
@@ -59,6 +61,6 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignContent: 'center',
         paddingTop: 32,
-        paddingBottom: 16,
+        paddingBottom: 24,
     }
 });

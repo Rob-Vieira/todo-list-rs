@@ -7,7 +7,6 @@ export const styles = StyleSheet.create({
         gap: 8
     },
     text: {
-        fontFamily: 'Inter_700Bold',
         fontSize: 14,
         fontWeight: 'bold'
     },
@@ -25,7 +24,6 @@ export const styles = StyleSheet.create({
         borderRadius: 999
     },
     counterText: {
-        fontFamily: 'Inter_700Bold',
         fontSize: 12,
         fontWeight: 'bold',
         color: theme.gray200,
